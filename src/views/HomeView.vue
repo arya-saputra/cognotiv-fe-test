@@ -17,7 +17,7 @@
         class="transition-all image w-[80%] mx-auto mt-[-160px] h-[63vh] overflow-hidden relative z-[10]"
         :class="{ 'opacity-0':page==2, 'opacity-100 duration-1000 delay-1000':page==1 }">
         <img
-          src="@/assets/image.jpeg"
+          src="/image.jpeg"
           class="transition-all delay-300 duration-1000 ease-in-out  w-full grayscale"
           :class="{ 'scale-[1.1] grayscale-[0]':hover }" />
       </div>
@@ -176,9 +176,9 @@
       :class="{ 'top-0 right-0 opacity-100 w-[67%] h-[100vh]':page==2, ' h-[20px] w-[20px] top-[60%] right-[60%] opacity-0':page==1 }">
       <div class="relative transition-all ease-out h-[100vh]"
         :class="{ 'top-0':menu==1, 'top-[-100vh]':menu==2, 'top-[-200vh]':menu==3 }">
-        <img src="@/assets/image-2.jpeg" class="transition-all duration-200 w-full h-full" :class="{ 'delay-500 grayscale':menu==1 }" />
-        <img src="@/assets/image-3.jpeg" class="transition-all duration-200 w-full h-full" :class="{ 'delay-500 grayscale':menu==2 }" />
-        <img src="@/assets/image-4.jpeg" class="transition-all duration-200 w-full h-full" :class="{ 'delay-500 grayscale':menu==3 }" />
+        <img src="/image-2.jpeg" class="transition-all duration-200 w-full h-full" :class="{ 'delay-500 grayscale':menu==1 }" />
+        <img src="/image-3.jpeg" class="transition-all duration-200 w-full h-full" :class="{ 'delay-500 grayscale':menu==2 }" />
+        <img src="/image-4.jpeg" class="transition-all duration-200 w-full h-full" :class="{ 'delay-500 grayscale':menu==3 }" />
       </div>
     </div>
   </div>
